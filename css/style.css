@@ -1,225 +1,187 @@
-* {
-  padding:0;
-  margin:0;
-  font-family: 'Muli', sans-serif;
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    color: #383838;
 }
 
-.clearfix {
-  overflow: auto;
+/* Styling the top title */
+.topTitle {
+    font-family: miso;
+    font-size: 75px;
+    text-align: left;
+    margin: 0 0 5px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.education-entry, .work-entry, .project-entry {
-  padding-left: 5%;
-  padding-right: 5%;
+/* First setting the map styles */
+.map {
+    position: absolute;
+    float: right;
+    height: 100%;
+    width: 100%;
 }
 
-h1 {
-  font-size: 40px;
-  color: #1199C3;
-  line-height: 48px;
-  display: inline;
+/* Filling the list in the space left over */
+.list {
+    font-family: miso;
+    font-size: 20px;
+    width: auto;
+    height: 100%;
+    float: left;
+    padding-left: 10px;
 }
 
-h2 {
-  font-weight: bold;
-  font-size: 24px;
-  color: #0089c8;
-  line-height: 29px;
-  padding: 10px;
+/* Styling the title */
+.title {
+    font-family: miso;
+    font-size: 40px;
+    text-align: left;
+    margin: 0 0 5px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-h3 {
-  font-style: italic;
-  font-size: 20px;
-  color: #999999;
-  line-height: 22px;
+/* Setting the style for the pop up description box */
+.popup {
+    padding: 2em;
+    line-height: 1.35;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
-h4 {
-  font-weight: bold;
-  font-size: 14px;
-  color: #4A4A4A;
-  line-height: 17px;
+/* Styling the pop up name */
+.popupTitle {
+    font-family: miso;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 5px 0;
 }
 
-h2, h3, h4, h5 {
-  padding:20px 5px;
-  padding-left: 5%;
-  padding-right: 5%;
+/* Styling the pop up favourite coffee */
+.popupFave {
+    font-family: miso;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 15px 0;
 }
 
-
-.date-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999999;
-  line-height: 16px;
-  float: left;
+/* Styling the Latest Snaps text */
+.latestSnaps {
+    font-family: miso;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 0 15px 0;
 }
 
-.location-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999999;
-  line-height: 16px;
-  float: right;
-
+input {
+    width: 80%;
+    margin: auto;
 }
 
-p {
-  font-size: 14px;
-  color: #333333;
-  line-height: 21px;
+.list ul {
+    padding: 0 0 0 10px;
+    list-style-type: none;
 }
 
-a {
-  padding-bottom: 5px;
-  color: #1199C3;
-  text-decoration: none;
-  margin-top: 10px;
-  display: block;
+.list li {
+    margin: 0.8em 0 0 0;
 }
 
-.welcome-message {
-  font-style: italic;
-  font-size: 18px;
-  color: #999999;
-  line-height: 28px;
+.list li span {
+    cursor: pointer;
 }
 
-#skillsH3 {
-  color: #1199C3;
-  display: none;
-}
-
-.blue {
-  background-color: #0089c8;
-}
-
-.blue-text {
-  color: #0089c8;
-}
-
-.white-text {
-  font-weight: bold;
-  color: #FFFFFF;
-}
-
-.gray {
-  background-color: #F3F3F3;
-  padding-bottom: 10px;
-  clear:both;
-}
-
-.dark-gray {
-  background-color: #636466;
-}
-
-/* TODO: Replace with image later */
-#header {
-  background-color: #636466;
-}
-
-.flex-box {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
-}
-
-.flex-box-2 {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
-}
-
-.center-content {
-  padding-top: 2.5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 2.5%
-}
-
-ul {
-  list-style-type: none;
-}
-
-.biopic {
-  float: left;
-  padding: 10px;
-  width: 200px;
-  display: none;
-}
-
-img {
-  padding: 10px;
-}
-
-/* Bar chart stuff */
-.chart div {
-  font: 10px sans-serif;
-  background-color: #4A4A4A;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  height: 12px;
-  color: white;
-  display: inline-block;
-}
-
-span {
-  padding: 5px;
-}
-
-#letsConnect {
-  text-align: center;
-}
-
-@media only screen and (max-width: 1024px) {
-  #letsConnect {
-    margin-top: 5%;
-  }
-}
-
-@media only screen and (max-width:900px) {
-  .biopic {
-    width: 175px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  #letsConnect {
-    margin-top: 10%;
-  }
-  .biopic {
+.photos li {
+    display: inline;
     width: 150px;
-  }
-  .welcome-message {
-    display: none;
-  }
+    height: 200px;
+    margin: 0px 20px 20px 0px;
 }
 
-#map {
-  display: block;
-  height: 100%;
-  margin-left: 5%;
-  margin-right: 5%;
+.photos {
+    width: 150px;
+    margin: 10px;
 }
 
-#mapDiv {
-  height: 400px;
-  width: 100%;
-  padding-bottom: 5%;
+.photos h1 {
+    text-align: center;
+    font-family: "miso";
+    font-size: 36px;
+    padding: 20px;
+    font-weight: bold;
+    color: #4f4f4f;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 
-@media only screen and (min-width: 750px) {
-  #skillsH3,
-  .biopic {
-    display: block;
-  }
+.photos img {
+    border-radius: 2px;
+    width: 250px;
+    border: 1px solid #dedede;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+/*Adding a bunch of media queries gathered from http://www.studiopress.com/design/website-respond-mobile-devices.html
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */;
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */;
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */;
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */;
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */;
 }
