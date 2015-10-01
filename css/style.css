@@ -1,3 +1,208 @@
-@font-face {font-family: Canter;
-src: url('fonts/FlowerSketches.ttf');}
-.canter { font-family: FlowerSketches; font-size: 20px;}
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,600,100);
+
+body {
+  font-family:'Josefin Sans', sans-serif;
+  color: #363636;
+  background: #eee;
+  font-weight: 300;
+}
+
+a {
+	color: #09c;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #00698c;
+	text-decoration: none;
+}
+
+/* Header Style */
+header {
+	margin: 70px auto;
+	max-width: 60%;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 5.714em; /* 80px/14px */
+	color: #363636;
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 300;
+}
+
+header h2 {
+	font-size: 2.571em; /* 36px/14px */
+	color: #363636;
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 300;
+}
+
+header ul.social-icons{
+	list-style: none;
+	margin: 10px 0;
+	padding: 0;
+	-webkit-padding-start: 0;
+	-moz-padding-start: 0;
+	-o-padding-start: 0;
+
+}
+
+header ul.social-icons li{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+header ul.social-icons li a:before{
+	font-size:36px;
+}
+
+header ul.social-icons li a{
+	font-size: 0;
+}
+
+h3.section-divider{
+	margin-bottom: 50px;
+	font-weight: 300;
+	color: #363636;
+}
+
+hr.divider{
+	background: #363636;
+	border: 0;
+    height: 1px;
+    margin-top: 70px;
+	width:10%;
+}
+
+/* Thumbnail */
+.thumbnail > img{
+	opacity: .7;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+
+}
+.thumbnail:hover > img{
+	opacity: 1;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+}
+
+.thumbnail .btn,
+.thumbnail .label{
+	border-radius:0;
+}
+
+.thumbnail .btn-info{
+	background: #09c;
+	border:0;
+}
+
+.thumbnail .btn-info:hover,
+.thumbnail .btn-info:focus,
+.thumbnail .btn-info:active{
+	background: #00698c;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	header {
+		padding:0;
+		max-width: 90%;
+	}
+	header h1 {
+		font-size: 4em; /* 56px/14px */
+	}
+	header h2 {
+		font-size: 1.714em; /* 26px/14px */
+	}
+	hr.divider{
+		width:20%;
+	}
+
+	.thumbnail > img{
+		opacity: 1;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	/* Header Style */
+	header {
+		max-width: 60%;
+	}
+
+	header h1 {
+		font-size: 5em; /* 70px/14px */
+	}
+
+	header h2 {
+		font-size: 2em; /* 28px/14px */
+	}
+	hr.divider{
+		width:15%;
+	}
+	.thumbnail > img{
+		opacity: 1;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	/* Header Style */
+	header {
+		max-width: 60%;
+	}
+
+	header h1 {
+		font-size: 5em; /* 70px/14px */
+	}
+
+	header h2 {
+		font-size: 2em; /* 28px/14px */
+	}
+	hr.divider{
+		width:15%;
+	}
+	.thumbnail > img{
+		opacity: 1;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	/* Header Style */
+	header {
+		max-width: 60%;
+	}
+
+	header h1 {
+		font-size: 5.714em; /* 80px/14px */
+	}
+
+	header h2 {
+		font-size: 2.571em; /* 36px/14px */
+	}
+	.thumbnail > img{
+		opacity: .7;
+		-webkit-transition: opacity .5s ease-in-out;
+		-moz-transition: opacity .5s ease-in-out;
+		-o-transition: opacity .5s ease-in-out;
+		transition: opacity .5s ease-in-out;
+
+	}
+	.thumbnail:hover > img{
+		opacity: 1;
+		-webkit-transition: opacity .5s ease-in-out;
+		-moz-transition: opacity .5s ease-in-out;
+		-o-transition: opacity .5s ease-in-out;
+		transition: opacity .5s ease-in-out;
+	}
+}
