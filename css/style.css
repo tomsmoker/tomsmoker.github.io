@@ -48,7 +48,6 @@ header ul.social-icons{
 	-webkit-padding-start: 0;
 	-moz-padding-start: 0;
 	-o-padding-start: 0;
-
 }
 
 header ul.social-icons li{
@@ -76,39 +75,6 @@ hr.divider{
     height: 1px;
     margin-top: 70px;
 	width:10%;
-}
-
-/* Thumbnail */
-.thumbnail > img{
-	opacity: .7;
-	-webkit-transition: opacity .5s ease-in-out;
-	-moz-transition: opacity .5s ease-in-out;
-	-o-transition: opacity .5s ease-in-out;
-	transition: opacity .5s ease-in-out;
-
-}
-.thumbnail:hover > img{
-	opacity: 1;
-	-webkit-transition: opacity .5s ease-in-out;
-	-moz-transition: opacity .5s ease-in-out;
-	-o-transition: opacity .5s ease-in-out;
-	transition: opacity .5s ease-in-out;
-}
-
-.thumbnail .btn,
-.thumbnail .label{
-	border-radius:0;
-}
-
-.thumbnail .btn-info{
-	background: #09c;
-	border:0;
-}
-
-.thumbnail .btn-info:hover,
-.thumbnail .btn-info:focus,
-.thumbnail .btn-info:active{
-	background: #00698c;
 }
 
 /* Custom, iPhone Retina */
