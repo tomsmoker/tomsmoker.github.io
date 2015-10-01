@@ -8,13 +8,13 @@ body {
 }
 
 a {
-	color: #09c;
+	color: #726b71;
 	text-decoration: none;
 }
 
 a:hover,
 a:active {
-	color: #00698c;
+	color: #09c;
 	text-decoration: none;
 }
 
