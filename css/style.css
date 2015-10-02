@@ -77,6 +77,40 @@ hr.divider{
 	width:10%;
 }
 
+/* Thumbnail */
+.thumbnail > img{
+  height: auto;
+	opacity: .7;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+
+}
+.thumbnail:hover > img{
+	opacity: 1;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+}
+
+.thumbnail .btn,
+.thumbnail .label{
+	border-radius:0;
+}
+
+.thumbnail .btn-info{
+	background: #09c;
+	border:0;
+}
+
+.thumbnail .btn-info:hover,
+.thumbnail .btn-info:focus,
+.thumbnail .btn-info:active{
+	background: #00698c;
+}
+
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 	header {
