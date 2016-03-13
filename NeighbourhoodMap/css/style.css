@@ -1,0 +1,187 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    color: #383838;
+}
+
+/* Styling the top title */
+.topTitle {
+    font-family: miso;
+    font-size: 75px;
+    text-align: left;
+    margin: 0 0 5px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* First setting the map styles */
+.map {
+    position: absolute;
+    float: right;
+    height: 100%;
+    width: 100%;
+}
+
+/* Filling the list in the space left over */
+.list {
+    font-family: miso;
+    font-size: 20px;
+    width: auto;
+    height: 100%;
+    float: left;
+    padding-left: 10px;
+}
+
+/* Styling the title */
+.title {
+    font-family: miso;
+    font-size: 40px;
+    text-align: left;
+    margin: 0 0 5px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Setting the style for the pop up description box */
+.popup {
+    padding: 2em;
+    line-height: 1.35;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Styling the pop up name */
+.popupTitle {
+    font-family: miso;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+/* Styling the pop up favourite coffee */
+.popupFave {
+    font-family: miso;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+/* Styling the Latest Snaps text */
+.latestSnaps {
+    font-family: miso;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+input {
+    width: 80%;
+    margin: auto;
+}
+
+.list ul {
+    padding: 0 0 0 10px;
+    list-style-type: none;
+}
+
+.list li {
+    margin: 0.8em 0 0 0;
+}
+
+.list li span {
+    cursor: pointer;
+}
+
+.photos li {
+    display: inline;
+    width: 150px;
+    height: 200px;
+    margin: 0px 20px 20px 0px;
+}
+
+.photos {
+    width: 150px;
+    margin: 10px;
+}
+
+.photos h1 {
+    text-align: center;
+    font-family: "miso";
+    font-size: 36px;
+    padding: 20px;
+    font-weight: bold;
+    color: #4f4f4f;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.photos img {
+    border-radius: 2px;
+    width: 250px;
+    border: 1px solid #dedede;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+/*Adding a bunch of media queries gathered from http://www.studiopress.com/design/website-respond-mobile-devices.html
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */;
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */;
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */;
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */;
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */;
+}
